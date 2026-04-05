@@ -1,0 +1,35 @@
+{
+  "name": "chalmeal-github.io",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "mounts": [
+    // 各種リポジトリをマウント
+    "source=${localWorkspaceFolder}/../basic-spring-sample,target=/workspace/basic-spring-sample,type=bind",
+    "source=${localWorkspaceFolder}/../sample-spring,target=/workspace/sample-spring,type=bind",
+    "source=${localWorkspaceFolder}/../sample-gin-ddd,target=/workspace/sample-gin-ddd,type=bind",
+    "source=${localWorkspaceFolder}/../go-gin-auth,target=/workspace/go-gin-auth,type=bind",
+    "source=${localWorkspaceFolder}/../go-gin-file,target=/workspace/go-gin-file,type=bind",
+    "source=${localWorkspaceFolder}/../go-echo-mail,target=/workspace/go-echo-mail,type=bind"
+  ],
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+
+  "postCreateCommand": "npm install -g prettier && curl -fsSL https://claude.ai/install.sh | bash",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "[markdown]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode",
+          "editor.formatOnSave": true
+        },
+        "prettier.proseWrap": "always",
+        "prettier.printWidth": 80,
+        "prettier.tabWidth": 2
+      }
+    }
+  }
+}
