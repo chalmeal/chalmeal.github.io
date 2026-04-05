@@ -1,5 +1,9 @@
 # スキルシート
 
+## 経歴概要
+
+高度情報専門学校卒業後、SpringBoot(Java)・Go・PHPを用いたバックエンド開発を主軸に、Vue.js・Reactによるフロントエンド開発やAWSを活用したインフラ構築まで幅広く担当。要件定義から保守まで上流・下流工程を経験し、チームSEとして設計・開発をリード。情報処理安全確保支援士・データベーススペシャリストなどの資格を保有。
+
 ## 学歴
 
 <!-- 最終学歴を記載します。詳細な学校名などは記載しません。 -->
@@ -47,6 +51,8 @@
 
 ### basic-spring-sample
 
+https://github.com/chalmeal/basic-spring-sample
+
 **概要**
 
 小〜中規模アプリ向けの SpringBoot スタートアッププロジェクト。JWT 認証・認可、Spring
@@ -82,6 +88,8 @@ src/main/java/sample/
 
 ### sample-spring
 
+https://github.com/chalmeal/sample-spring
+
 **概要**
 
 Java の学習・検証向けシンプルな SpringBoot サンプル。社員情報の CRUD
@@ -111,6 +119,8 @@ src/main/java/sample/
 ```
 
 ### sample-gin-ddd
+
+https://github.com/chalmeal/sample-gin-ddd
 
 **概要**
 
@@ -143,6 +153,8 @@ pkg/
 
 ### go-gin-auth
 
+https://github.com/chalmeal/go-gin-auth
+
 **概要**
 
 Go /
@@ -171,6 +183,8 @@ common/
 ```
 
 ### go-gin-file
+
+https://github.com/chalmeal/go-gin-file
 
 **概要**
 
@@ -203,6 +217,8 @@ routes/
 ```
 
 ### go-echo-mail
+
+https://github.com/chalmeal/go-echo-mail
 
 **概要**
 
